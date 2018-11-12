@@ -1,0 +1,185 @@
+﻿.content,
+#app {
+    height: 100%;
+}
+
+    #app .win-splitviewpanetoggle {
+        float: left;
+    }
+
+    /* SplitView pane content style*/
+    #app .header {
+        white-space: nowrap;
+    }
+
+    #app .title {
+        font-size: 25px;
+        left: 50px;
+        margin-top: 6px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+    #app .nav-commands {
+        margin-top: 20px;
+    }
+
+.win-navbarcommand-button {
+    background-color: transparent;
+}
+
+#app .win-splitview-pane-hidden .win-navbarcommand-button {
+    width: 46px;
+}
+
+#app .win-splitview-pane-hidden .win-navbarcommand-label {
+    /* Workaround: Make sure pane doesn't scroll if ContentDialog restores focus to
+       NavBarCommand's label
+    */
+    visibility: hidden;
+}
+
+/*SplitView content style*/
+#app .win-splitview-content {
+    background-color:gray;
+}
+
+#app .contenttext {
+    margin-left: 20px;
+    margin-top: 6px;
+}
+.status {
+	margin-top:60px;
+	color: black;
+}
+#listView {
+    height: 100%;
+}
+
+.smallListIconTextItem {
+    width: 322px;
+    height: 65px;
+    padding: 5px;
+    overflow: hidden;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+    .smallListIconTextItem img.smallListIconTextItem-Image {
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+        margin-right: 20px;
+    }
+
+    .smallListIconTextItem .smallListIconTextItem-Detail {
+        margin: 5px;
+    }
+    td, th {
+        vertical-align: middle !important;
+        }
+    .left, .right {
+            float:left;
+            height:100vh;
+        }
+        
+    .left {
+            background: #337ab7;
+            display: inline-block;
+            white-space: nowrap;
+            width: 50px;
+            transition: width 1s ;
+        }
+    
+    .right {
+            background: #fff;
+            width: 350px;
+            transition: width 1s;
+            border-style:solid;
+            border-color:#ccc;
+            border-width:1px;
+        }    
+    
+    .left:hover {
+            width: 250px;
+        }    
+        
+    .item:hover {
+            background-color:#ccc;
+            }
+            
+    .left .glyphicon {
+            margin:15px;
+            width:20px;
+            color:#fff;
+        }
+        
+    .right .glyphicon {
+            color:#a9a9a9;
+        }
+    span.glyphicon.glyphicon-refresh{
+        font-size:17px;
+        vertical-align: middle !important;
+        }
+        
+    .item {
+            height:50px;
+            overflow:hidden;
+            color:#fff;
+        }
+    .title {
+            background-color:transparent;
+            border-style:solid;
+            border-color:transparent;
+            border-width:1px;
+            box-sizing: border-box;
+        }
+    .search:hover {
+            border-color:#4aa9fb;
+            border-width:1px;
+        }
+    .search {
+        padding:3px 8px 3px !important;
+        }
+    input[type=search] {
+        padding: 10px 0px 10px;
+        border: 0px solid #fff;
+        background: #eee;
+        -webkit-appearance: none;
+        width:90%;
+        float:none;
+    }
+    input[type=search]:focus {
+        outline:none;
+        }
+    .type{
+        height: 47px;;
+        }
+    .date{
+        background-color:#f7f7f7
+        }
+    .docdate {
+        vertical-align:bottom !important;
+        }
+    .distr {
+        margin: 0 0 5px;
+        font-size: 12px;
+        }
+    .ndoc {
+        margin: 0 0 5px;
+        }
+    .storage {
+        margin: 0;
+        color: #aaa !important;
+        font-size: 12px;
+        }
+        .blurdiv{
+            box-shadow: inset 0 0 0 0px rgba(255,255,255,0.3);
+            filter: blur(1px);
+           }
+           .win-splitview.win-splitview-pane-opend.win-splitview-placementleft .win-splitview-pane, .win-splitview.win-splitview-pane-opend.win-splitview-placementright .win-splitview-pane
+           {
+            box-shadow: inset 0 0 0 0px rgba(255,255,255,0.3);
+            filter: blur(1px);
+           }
